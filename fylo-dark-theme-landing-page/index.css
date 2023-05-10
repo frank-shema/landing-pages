@@ -1,0 +1,265 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    background-color: #40514e;
+    box-shadow: inset 4px 4px 4px 4px hsl(216, 53%, 9%);
+
+}
+
+.allcontent {
+    background-color: hsl(218, 28%, 13%);
+    height: 100%;
+    padding: 0px 20px;
+    padding-bottom: 10px;
+    border-radius: 24px;
+    font-family: cursive;
+    font-size: 13px;
+}
+
+.icons {
+    width: 15px;
+}
+
+.nav {
+    background-color: hsl(217, 28%, 15%);
+    padding-top: 30px;
+}
+
+.navi {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav nav {
+    display: flex;
+    font-size: 20px;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 250px;
+}
+
+.navi nav {
+    padding-left: 200px;
+}
+
+.nav .navi nav p a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.image img {
+    position: relative;
+    height: 300px;
+    width: 400px;
+    margin-left: 350px;
+}
+
+.firstcontent {
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    width: 500px;
+    padding-top: 20px;
+    color: white;
+}
+
+.firstcontent p {
+    width: 410px;
+    padding: 20px 30px;
+    margin-left: 20px;
+    color: #cabbe9;
+}
+
+.firstcontent button {
+    border: 2px solid white;
+    padding: 20px 60px;
+    background-color: hsl(176, 68%, 64%);
+    border-radius: 40px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.secondcontent {
+    margin-left: 100px;
+    margin-top: 50px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.first {
+    width: 350px;
+    text-align: center;
+    margin: 20px;
+    margin-right: 10px;
+    color: white;
+}
+
+.thirdcontent {
+    margin-top: 50px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.thirdcontent>img {
+    width: 380px;
+    height: 400px;
+}
+
+.thirdcontent div {
+    margin-top: 100px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    height: 200px;
+    width: 350px;
+}
+
+.thirdcontent div>p:nth-of-type(1) {
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+}
+
+.first p:nth-of-type(1) {
+    font-weight: bold;
+}
+
+.first p:nth-of-type(2) {
+    color: #cabbe9;
+}
+
+.thirdcontent div p {
+    color: #cabbe9;
+}
+
+.fourthcontent {
+    width: 500px;
+    margin-top: 90px;
+    margin-left: 190px;
+}
+
+.thephotos img {
+    height: 60px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.thephotos {
+    height: 200px;
+    width: 300px;
+    color: #cabbe9;
+    background-color: hsl(219, 30%, 18%);
+    box-shadow: 3px 3px hsl(219, 30%, 18%);
+    padding: 10px;
+    border: 1px;
+    border-radius: 24px;
+}
+
+.manu {
+    /* margin-left: 180px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 40px;
+    position: relative;
+    bottom: 15px;
+}
+
+.thephotos span {
+    position: relative;
+    bottom: 48px;
+    left: 45px;
+}
+
+.thephotos span p::first-line {
+    color: white;
+    font-weight: bold;
+}
+
+.fifthcontent {
+    position: relative;
+    z-index: 1;
+    top: 100px;
+    width: 600px;
+    height: 200px;
+    margin: auto;
+    background-color: hsl(219, 30%, 18%);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 80px;
+    box-shadow: 4px 4px 4px 4px hsl(219, 30%, 18%);
+
+}
+
+.fifthcontent h2 {
+    padding-bottom: 20px;
+}
+
+.fifthcontent p {
+    padding-bottom: 20px;
+    color: #cabbe9;
+}
+
+.fifthcontent button {
+    padding: 20px 40px;
+    background-color: hsl(176, 68%, 64%);
+    border-radius: 24px;
+    border: 1px hsl(176, 68%, 64%) solid;
+    color: white;
+    font-weight: bold;
+}
+
+.footer {
+    box-shadow: 8px 8px 8px 8px hsl(216, 53%, 9%);
+    padding: 30px;
+    height: 400px;
+    background-color: hsl(216, 53%, 9%);
+}
+
+.fylo {
+    padding-top: 120px;
+}
+
+.foter {
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    padding-top: 30px;
+    color: white;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: 20px 20px 20px;
+    gap: 10px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nextdown {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,198 @@
+
+.mainncontent{
+    width: 100%;
+    height: 100%;
+    background-color:white;
+    margin: auto;
+    overflow-x: hidden;
+    
+}
+.navb{
+    display: grid;
+    grid-template-columns: 600px 80px;
+    grid-gap: 100px;
+    padding: 80px;
+}
+.navbb{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.fmainco{
+    background-color: hsl(355, 100%, 74%);
+    border-bottom-left-radius: 30%;
+}
+
+.behov a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.668);
+    font-size: 19px;
+    font-family: cursive;
+    font-weight: 100;
+}
+.hoverer li,.hovere li,.hoverr li{
+    list-style-type: none;
+    padding: 5px;
+}
+.hoverer li a,.hovere li a,.hoverr li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+.hovere,.hoverer,.hoverr{
+    background-color:  #c0cce060;
+    border-radius: 24px;
+    margin-right: 10px;
+    display: none;
+}
+.behov:hover + .hovere{
+    display: block;
+    background-color: #041a40;
+    box-shadow: inset 2px 2px 2px #ecfffb;
+    position: fixed;
+    opacity: 0.3;
+
+}
+.behov:hover +.hoverer{
+    display: block;
+    background-color: #041a40;
+    opacity: 0.3;
+    box-shadow: inset 2px 2px 2px #ecfffb;
+    position: fixed;
+}
+.behov:hover +.hoverr{
+    display: block;
+    background-color: #041a40;
+    opacity: 0.3;
+    box-shadow: inset 2px 2px 2px #ecfffb;
+    position: fixed;
+}
+.behov a{
+    background-color: #002651;
+    color: #ace7ef;
+    padding: 5px;
+    border-radius: 24px;
+    box-shadow: inset 2px 2px 2px #a56cc1;
+}
+.navbaa{
+    width: 500px; 
+}
+.navbaa button{
+    padding: 10px 30px ;
+    border-radius: 24px;
+    border: 2px solid white;
+    background-color: #fafaf6;
+}
+.navbaa button:nth-of-type(1){
+    background-color: #fafaf6;
+    opacity: 0.2;
+    font-weight: bolder;
+}
+.head1{
+    margin: auto;
+    text-align: center;
+    padding-bottom: 80px;
+    color: white;
+}
+.head1 p{
+    color: #ecfffb;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 9px;
+}
+.head1 div{
+    word-spacing: 10px;
+}
+.head1 div button{
+    padding: 10px 20px;
+    font-weight: 900;
+    border-radius: 30px;
+    background-color: white;
+    opacity: 0.2;
+    border: 2px solid white;
+}
+.head1 div button:hover{
+    background-color: white;
+    color: rgb(216, 74, 74);
+    opacity: 1;
+}
+.head2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: hsl(208, 49%, 24%);
+    margin-bottom: 80px;
+}
+.nnncont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    grid-gap: 80px;
+    color: hsl(208, 49%, 24%);
+}
+.img1 img{
+    width: 500px;
+}
+.contn{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 100px;
+    width: 400px;
+}
+.contso{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 150px;
+    margin: 100px 0px;
+    background: hsl(237, 17%, 21%) url('./images/bg-pattern-circles.svg') no-repeat left/40%;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 30%;
+    height: 400px;
+
+}
+.img2 img{
+    position: absolute;
+    top: 1100px;
+    height: 600px;
+    margin-left: 100px;
+}
+.paras{
+    color: white;
+    margin: auto;
+    margin-right: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contsoo{
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin: 200px 0px 100px 0px;
+}
+.imgoo img{
+    height: 600px;
+    width: 800px;
+}
+.imgoo{
+    position: relative;
+    right: 250px;
+}
+.parag{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: auto;
+    margin-right: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: hsl(208, 49%, 24%);
+}
+.lstcont{
+display: flex;
+flex-direction: row;
+gap: 100px;
+padding: 50px 100px;
+background-color: hsl(240, 10%, 16%);
+border-top-right-radius: 20%;
+color: white;
+opacity: 0.9;
+}
+
+
+
+
